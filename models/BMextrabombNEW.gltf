@@ -2,10 +2,10 @@
     "accessors" : [
         {
             "bufferView" : 0, 
-            "componentType" : 5123, 
+            "componentType" : 5121, 
             "count" : 384, 
             "max" : [
-                206
+                204
             ], 
             "min" : [
                 0
@@ -15,23 +15,23 @@
         {
             "bufferView" : 1, 
             "componentType" : 5126, 
-            "count" : 207, 
+            "count" : 205, 
             "max" : [
-                0.422252357006073, 
-                1.701035499572754, 
-                -0.10123097896575928
+                0.4950103759765625, 
+                1.5213344097137451, 
+                0.022780820727348328
             ], 
             "min" : [
-                0.08973336219787598, 
-                1.3685166835784912, 
-                -0.14678706228733063
+                0.16249138116836548, 
+                1.1888154745101929, 
+                -0.022775262594223022
             ], 
             "type" : "VEC3"
         }, 
         {
             "bufferView" : 2, 
             "componentType" : 5126, 
-            "count" : 207, 
+            "count" : 205, 
             "max" : [
                 1.0, 
                 1.0, 
@@ -47,7 +47,7 @@
         {
             "bufferView" : 3, 
             "componentType" : 5126, 
-            "count" : 207, 
+            "count" : 205, 
             "max" : [
                 0.7782198190689087, 
                 0.9549613893032074
@@ -76,13 +76,13 @@
             "count" : 7240, 
             "max" : [
                 0.34156736731529236, 
-                1.6126998662948608, 
-                0.2671070694923401
+                1.3474386930465698, 
+                0.3744315803050995
             ], 
             "min" : [
                 -0.4091149568557739, 
-                0.6066516637802124, 
-                -0.4835749864578247
+                0.3413904905319214, 
+                -0.3762504756450653
             ], 
             "type" : "VEC3"
         }, 
@@ -124,56 +124,56 @@
     "bufferViews" : [
         {
             "buffer" : 0, 
-            "byteLength" : 768, 
+            "byteLength" : 384, 
             "byteOffset" : 0, 
             "target" : 34963
         }, 
         {
             "buffer" : 0, 
-            "byteLength" : 2484, 
-            "byteOffset" : 768, 
+            "byteLength" : 2460, 
+            "byteOffset" : 384, 
             "target" : 34962
         }, 
         {
             "buffer" : 0, 
-            "byteLength" : 2484, 
-            "byteOffset" : 3252, 
+            "byteLength" : 2460, 
+            "byteOffset" : 2844, 
             "target" : 34962
         }, 
         {
             "buffer" : 0, 
-            "byteLength" : 1656, 
-            "byteOffset" : 5736, 
+            "byteLength" : 1640, 
+            "byteOffset" : 5304, 
             "target" : 34962
         }, 
         {
             "buffer" : 0, 
             "byteLength" : 21888, 
-            "byteOffset" : 7392, 
+            "byteOffset" : 6944, 
             "target" : 34963
         }, 
         {
             "buffer" : 0, 
             "byteLength" : 86880, 
-            "byteOffset" : 29280, 
+            "byteOffset" : 28832, 
             "target" : 34962
         }, 
         {
             "buffer" : 0, 
             "byteLength" : 86880, 
-            "byteOffset" : 116160, 
+            "byteOffset" : 115712, 
             "target" : 34962
         }, 
         {
             "buffer" : 0, 
             "byteLength" : 57920, 
-            "byteOffset" : 203040, 
+            "byteOffset" : 202592, 
             "target" : 34962
         }
     ], 
     "buffers" : [
         {
-            "byteLength" : 260960, 
+            "byteLength" : 260512, 
             "uri" : "BMextrabombNEW.bin"
         }
     ], 
@@ -183,6 +183,9 @@
         }, 
         {
             "uri" : "BMbomb.png"
+        }, 
+        {
+            "uri" : "BMextraflameNEW.png"
         }
     ], 
     "materials" : [
@@ -215,6 +218,21 @@
                 }, 
                 "metallicFactor" : 0.0
             }
+        }, 
+        {
+            "name" : "Material.002", 
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.6400000190734865, 
+                    0.6400000190734865, 
+                    0.6400000190734865, 
+                    1.0
+                ], 
+                "baseColorTexture" : {
+                    "index" : 0
+                }, 
+                "metallicFactor" : 0.0
+            }
         }
     ], 
     "meshes" : [
@@ -228,7 +246,7 @@
                         "TEXCOORD_0" : 3
                     }, 
                     "indices" : 0, 
-                    "material" : 0
+                    "material" : 2
                 }, 
                 {
                     "attributes" : {
@@ -268,6 +286,10 @@
         {
             "sampler" : 0, 
             "source" : 1
+        }, 
+        {
+            "sampler" : 0, 
+            "source" : 0
         }
     ]
 }
